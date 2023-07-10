@@ -358,6 +358,7 @@ Example:
 
 Note: generally an element that is written below is going to appear in front of elements written in front of it. We can override this behavior with the `z-index: 1`. More z-index means it is higher on th z axis of the page.
 
+***
 ## Project finish
 
 Notes:
@@ -391,6 +392,21 @@ Tooltip example:
 ```
 
 - We use `white-space: nowrap;` to prevent text from wrapping around
+
+***
+## More CSS Features
+
+44. Responsive Design: Making the website look as good as possible, depending on the screensize, by changing some HTML. For example, choosing the rows of a grid depending on the width of the window.
+
+45. Media Query: It is a conditional statement in CSS, it only activates some section of the CSS if a condition is met. We use them to make sites responsive. Sintax:
+
+```Css
+@media (max-width: 850px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+```
 
 
 
