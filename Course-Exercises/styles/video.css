@@ -27,6 +27,21 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  padding: 4px;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border-radius: 2px;
 }
 
 .video-author, .video-stats {
