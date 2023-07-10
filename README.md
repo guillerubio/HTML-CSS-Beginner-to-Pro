@@ -358,6 +358,41 @@ Example:
 
 Note: generally an element that is written below is going to appear in front of elements written in front of it. We can override this behavior with the `z-index: 1`. More z-index means it is higher on th z axis of the page.
 
+## Project finish
+
+Notes:
+
+- In CSS we can combine selectors together with a `,` to target both or with a `space`to target the class inside a class.
+- REMINDER: to center things inside an element you use `justify-content` and `align-items`, but it must be a flexbox.
+- If ypu have a tooltip coming out of a button, and do not want the tooltip to activate itself when hovering over the tooltip area (not the button, but the tooltip), you can disable this by using the `pointer-events: none;` value on the parent element.
+
+Tooltip example:
+
+```Css
+.search-button .tooltip {
+  background-color: gray;
+  position: absolute;
+  color:white;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  left: 1px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip {
+  opacity: 1;
+}
+```
+
+- We use `white-space: nowrap;` to prevent text from wrapping around
+
+
 
 
 
