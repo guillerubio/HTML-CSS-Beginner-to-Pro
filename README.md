@@ -398,7 +398,7 @@ Tooltip example:
 
 44. Responsive Design: Making the website look as good as possible, depending on the screensize, by changing some HTML. For example, choosing the rows of a grid depending on the width of the window.
 
-45. Media Query: It is a conditional statement in CSS, it only activates some section of the CSS if a condition is met. We use them to make sites responsive. Sintax:
+45. Media Query: It is a conditional statement in CSS, it only activates some section of the CSS if a condition is met. We use them to make sites responsive. Sintax: 
 
 ```Css
 @media (max-width: 850px) {
@@ -407,6 +407,28 @@ Tooltip example:
   }
 }
 ```
+
+You can use logical operators in the conditional.
+
+Notes: 
+
+- For the `padding` property, we can use 1 value, two values or four values to affect all of the sides, top and bottom side, or clockwise around from the top. It works the same way in `padding`.
+
+- For borders we can use the shorthand `border`, to initialize the `border-width`, `border-style` and `border-color` with 1 line of code and three arguments.
+
+46. Inheritance: For certain CSS elements, if you set a property on the parent element, it will pass down to the child elements. Some of them include: `text-decoration`, however, some of themdo not inherit, like `border`. It mostly works with text properties.+
+
+- Remember CSS specificity (proprity) when playing with inheritance. We can overide styles.
+
+47. Semantic Elements: `<header></header>`, `<nav></nav`, `<main></main>`, `<section></section>`: they are divs. But they have a special meaning for search engines and robots. 
+
+- Comment sintax: HTML: `<!-- hello -->` CSS: `/* hello */`
+
+In conclusion, HTML is the backbone of the web, providing structure and formatting for web pages. Learning HTML is a valuable skill for anyone looking to create engaging and accessible websites.
+
+
+
+
 
 
 
